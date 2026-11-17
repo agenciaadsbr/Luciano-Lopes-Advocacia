@@ -1,0 +1,579 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Luciano Lopes Advocacia | Direito Previdenciário em São Paulo</title>
+<meta name="description" content="Advogados com atuação em Direito Previdenciário. Orientação sobre BPC/LOAS para autistas e idosos, auxílio-acidente, auxílio-doença e salário-maternidade. Atendimento em todo o Estado de São Paulo.">
+<meta name="theme-color" content="#0E0E10">
+<link rel="icon" href="assets/logo-icone.png">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Luciano Lopes Advocacia | Direito Previdenciário">
+<meta property="og:description" content="Orientação jurídica sobre BPC/LOAS, auxílio-acidente, auxílio-doença e salário-maternidade. Atendimento em todo o Estado de SP.">
+<meta property="og:image" content="https://lp-luciano-lopes.vercel.app/assets/og.jpg">
+<link rel="preload" as="image" href="assets/hero.webp" fetchpriority="high">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#F3F3F1;-webkit-font-smoothing:antialiased}
+html{scroll-behavior:smooth}
+a{color:#8A6A33}a:hover{color:#0E0E10}
+.gold{background:linear-gradient(100deg,#F6E7B8 0%,#D9B66F 45%,#B08A45 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.wa-btn{box-sizing:border-box;max-width:100%;text-align:center;display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:58px;padding:0 30px;border-radius:14px;background:#0F7A40;color:#FFFFFF;font-family:'Plus Jakarta Sans',Inter,sans-serif;font-weight:700;font-size:17px;text-decoration:none;border:0;cursor:pointer;transition:transform .2s ease,box-shadow .2s ease,background .2s ease;box-shadow:0 14px 30px -14px rgba(15,122,64,.85),inset 0 1px 0 rgba(255,255,255,.18)}
+.wa-btn:hover{background:#0B6A37;color:#FFFFFF;transform:translateY(-2px);box-shadow:0 20px 36px -14px rgba(15,122,64,.9),inset 0 1px 0 rgba(255,255,255,.18)}
+.cta-btn{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:58px;padding:0 30px;border-radius:14px;background:linear-gradient(100deg,#F3DFA6 0%,#D9B66F 50%,#B88F45 100%);color:#111113;font-family:'Plus Jakarta Sans',Inter,sans-serif;font-weight:800;font-size:17px;text-decoration:none;transition:transform .2s ease,box-shadow .2s ease,filter .2s ease;box-shadow:0 14px 30px -14px rgba(217,182,111,.7),inset 0 1px 0 rgba(255,255,255,.4)}
+.cta-btn:hover{color:#111113;transform:translateY(-2px);filter:brightness(1.06);box-shadow:0 20px 38px -14px rgba(217,182,111,.8),inset 0 1px 0 rgba(255,255,255,.4)}
+.dif{transition:border-color .25s ease,transform .25s ease,background .25s ease}
+.dif:hover{border-color:rgba(217,182,111,.55);transform:translateY(-3px);background:#1B1B1E}
+.ghost{display:inline-flex;align-items:center;gap:10px;min-height:46px;padding:0 20px;border-radius:12px;border:1px solid rgba(217,182,111,.55);color:#F6E7B8;font-family:'Plus Jakarta Sans',Inter,sans-serif;font-weight:700;font-size:15px;text-decoration:none;transition:background .2s ease,color .2s ease}
+.ghost:hover{background:rgba(217,182,111,.12);color:#FFFFFF}
+.chip{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 16px;border-radius:999px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.16);color:#F3F3F1;font-size:14px;font-weight:600;text-decoration:none;transition:background .2s ease,border-color .2s ease,transform .2s ease}
+.chip:hover{background:rgba(217,182,111,.16);border-color:rgba(217,182,111,.6);color:#FFFFFF;transform:translateY(-1px)}
+.lnk{display:inline-flex;align-items:center;gap:10px;min-height:44px;color:#8A6A33;font-family:'Plus Jakarta Sans',Inter,sans-serif;font-weight:700;font-size:16px;text-decoration:none;transition:gap .2s ease,color .2s ease}
+.lnk:hover{gap:14px;color:#0E0E10}
+.pcard{position:relative;overflow:hidden;border-radius:24px;background:#0E0E10;color:#FFFFFF;text-decoration:none;display:flex;flex-direction:column;justify-content:flex-end;isolation:isolate}
+.pcard img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;transition:transform 1s cubic-bezier(.2,.7,.2,1)}
+.pcard:hover img{transform:scale(1.06)}
+.pcard .go{transition:background .25s ease,color .25s ease,transform .25s ease}
+.pcard:hover .go{background:#D9B66F;color:#0E0E10;transform:translateX(4px)}
+.pcard:hover{color:#FFFFFF}
+.tab{all:unset;box-sizing:border-box;cursor:pointer;min-height:48px;padding:0 20px;border-radius:999px;font-family:'Plus Jakarta Sans',Inter,sans-serif;font-weight:700;font-size:15px;display:inline-flex;align-items:center;transition:background .2s ease,color .2s ease,border-color .2s ease}
+.faq-q{all:unset;box-sizing:border-box;width:100%;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:24px 4px;cursor:pointer;font-family:'Plus Jakarta Sans',Inter,sans-serif;font-weight:700;font-size:18px;line-height:1.4;color:#0E0E10;min-height:44px}
+.faq-q:hover{color:#8A6A33}
+.field{width:100%;box-sizing:border-box;min-height:56px;padding:0 18px;border-radius:12px;border:1.5px solid #D4D4D1;background:#FFFFFF;font-family:Inter,sans-serif;font-size:17px;color:#0E0E10;outline:none;transition:border-color .2s ease,box-shadow .2s ease}
+.field:focus{border-color:#B08A45;box-shadow:0 0 0 4px rgba(217,182,111,.25)}
+a:focus-visible,.faq-q:focus-visible,.tab:focus-visible,.wa-btn:focus-visible{outline:3px solid #D9B66F;outline-offset:3px}
+.marq{display:flex;width:max-content;animation:marq 38s linear infinite}
+@keyframes marq{to{transform:translateX(-50%)}}
+@keyframes rise{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}
+.rise{animation:rise .9s cubic-bezier(.2,.7,.2,1) both}
+.rise-2{animation:rise .9s .12s cubic-bezier(.2,.7,.2,1) both}
+.rise-3{animation:rise .9s .24s cubic-bezier(.2,.7,.2,1) both}
+@keyframes blink{0%,80%,100%{opacity:.25}40%{opacity:1}}
+.dot1{animation:blink 1.4s infinite}.dot2{animation:blink 1.4s .2s infinite}.dot3{animation:blink 1.4s .4s infinite}
+.hero-bg{position:absolute;inset:0;z-index:0;background-image:url(assets/hero.webp);background-size:cover;background-position:60% 30%;background-repeat:no-repeat;background-attachment:fixed;opacity:.3}
+.hero-fade{position:absolute;inset:0;z-index:0;background:linear-gradient(90deg,rgba(14,14,16,.85) 0%,rgba(14,14,16,.45) 55%,rgba(14,14,16,.2) 100%),linear-gradient(180deg,rgba(14,14,16,.6) 0%,rgba(14,14,16,0) 25%,rgba(14,14,16,0) 70%,#0E0E10 100%)}
+@media (hover:none),(max-width:900px){.hero-bg{background-attachment:scroll;background-position:35% 30%}}
+.fab{position:fixed;right:22px;bottom:22px;z-index:60;width:62px;height:62px;border-radius:50%;background:#0F7A40;color:#FFFFFF;display:flex;align-items:center;justify-content:center;box-shadow:0 14px 30px -10px rgba(0,0,0,.5);transition:transform .2s ease}
+.fab:hover{transform:scale(1.06);color:#FFFFFF}
+@media (max-width:900px){.hide-md{display:none !important}}
+@media (max-width:640px){.cta-btn{width:100%}.hide-sm{display:none !important}.fab{width:56px;height:56px;right:14px;bottom:14px}.wa-btn{width:100%}.faq-q{font-size:17px}}
+@media (max-width:640px){
+.m-hdr{justify-content:center !important}
+.m-c{text-align:center}
+.m-col{flex-direction:column !important;align-items:center !important}
+.m-col>*{flex:0 1 auto !important;width:100%}
+.m-jc{justify-content:center !important}
+.m-list{display:flex !important;flex-direction:column !important;align-items:flex-start !important;width:fit-content;max-width:100%;margin-left:auto !important;margin-right:auto !important;text-align:left}
+.m-badge{left:50% !important;transform:translateX(-50%);white-space:nowrap}
+.pcard{align-items:center;text-align:center}
+.dcard{align-items:center;text-align:center}
+.m-step{flex-direction:column;align-items:center;text-align:center;gap:14px !important}
+.m-step>div:last-child{padding:0 0 32px !important}
+.m-line{display:none}
+.m-form{text-align:center}
+.m-form label{text-align:left}
+.m-foot{text-align:center}
+.m-foot div{justify-content:center !important;align-items:center}
+.m-foot img{margin:0 auto}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none !important;transition:none !important;scroll-behavior:auto !important}}
+
+.tab{background:transparent;color:#F3F3F1;border:1px solid rgba(255,255,255,.22)}
+.tab.on{background:linear-gradient(100deg,#F6E7B8,#D9B66F 55%,#B08A45);color:#0E0E10;border-color:transparent}
+.faq-ico{transition:transform .3s ease}
+[hidden]{display:none !important}
+</style>
+</head>
+<body data-site="luciano-lopes">
+<div style="font-family: Inter, system-ui, sans-serif; color: #1E1E21; background: #F3F3F1; min-width: 0; overflow-x: hidden">
+
+<!-- ================= HERO ================= -->
+<section id="topo" style="position: relative; background: #0E0E10; color: #F3F3F1; overflow: hidden">
+  <header class="m-hdr" style="position: relative; z-index: 2; max-width: 1280px; margin: 0 auto; padding: 22px 24px; display: flex; justify-content: space-between; align-items: center; gap: 16px">
+    <a href="#topo" aria-label="Luciano Lopes Advocacia — início" style="display: flex; align-items: center; gap: 16px; text-decoration: none; color: #F3F3F1">
+      <img src="assets/logo-icone.png" alt="" width="182" height="230" style="display: block; width: 40px; height: 51px">
+      <span style="display: flex; flex-direction: column; gap: 3px">
+        <span style="font-family: 'Plus Jakarta Sans', Inter, sans-serif; font-size: 17px; font-weight: 600; letter-spacing: 4px; text-transform: uppercase">Luciano Lopes</span>
+        <span style="font-size: 11px; font-weight: 500; letter-spacing: 5.5px; text-transform: uppercase; color: #D9B66F">Advocacia</span>
+      </span>
+    </a>
+    <a href="#contato" data-cta data-area="geral" class="ghost hide-sm">
+      <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 20.5l1.3-4.2A8.5 8.5 0 1 1 8 19.4z"></path><path d="M9 8.6c0 3.4 2.9 6.3 6.3 6.3l1.2-1.6-2.1-1-1 .9a4.6 4.6 0 0 1-2.7-2.7l.9-1-1-2.1z"></path></svg>
+      Fale conosco
+    </a>
+  </header>
+
+  <div class="hero-bg" role="img" aria-label="Mãe sorrindo e abraçando o filho pequeno no sofá de casa"></div>
+  <div class="hero-fade" aria-hidden="true"></div>
+  <div aria-hidden="true" class="hide-md" style="position: absolute; z-index: 0; right: 56px; bottom: 64px; width: 120px; height: 120px; border-right: 1.5px solid rgba(217,182,111,0.7); border-bottom: 1.5px solid rgba(217,182,111,0.7)"></div>
+  <div aria-hidden="true" class="hide-md" style="position: absolute; z-index: 0; right: 46px; bottom: 54px; width: 120px; height: 120px; border-right: 1px solid rgba(217,182,111,0.4); border-bottom: 1px solid rgba(217,182,111,0.4)"></div>
+
+  <div style="position: relative; z-index: 1; max-width: 1280px; margin: 0 auto; padding: clamp(24px, 6vw, 88px) 24px clamp(56px, 7vw, 104px)">
+    <div class="m-c" style="max-width: 640px">
+      <p class="rise" style="margin: 0 0 22px; display: inline-flex; align-items: center; gap: 10px; padding: 8px 14px; border-radius: 999px; background: rgba(217,182,111,0.12); border: 1px solid rgba(217,182,111,0.35); font-size: 13px; font-weight: 600; letter-spacing: 0.4px; color: #F6E7B8">
+        <span aria-hidden="true" style="width: 7px; height: 7px; border-radius: 50%; background: #D9B66F"></span>
+        Atendimento em todo o Estado de São Paulo
+      </p>
+      <h1 class="rise-2" style="margin: 0; font-family: 'Plus Jakarta Sans', Inter, sans-serif; font-weight: 800; font-size: clamp(40px, 5.6vw, 72px); line-height: 1.02; letter-spacing: -2px; color: #FFFFFF">Advogados com atuação em <span class="gold">Direito Previdenciário.</span></h1>
+      <p class="rise-3" style="margin: 24px 0 0; max-width: 520px; font-size: clamp(17px, 1.5vw, 19px); line-height: 1.6; color: rgba(243,243,241,0.82)">Orientação jurídica sobre BPC/LOAS, auxílio-acidente, auxílio-doença e salário-maternidade. Analisamos sua situação e mostramos os caminhos possíveis.</p>
+      <div class="rise-3 m-jc" style="margin-top: 36px; display: flex; flex-wrap: wrap; gap: 14px">
+        <a href="#contato" data-cta data-area="geral" class="wa-btn">
+          <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 20.5l1.3-4.2A8.5 8.5 0 1 1 8 19.4z"></path><path d="M9 8.6c0 3.4 2.9 6.3 6.3 6.3l1.2-1.6-2.1-1-1 .9a4.6 4.6 0 0 1-2.7-2.7l.9-1-1-2.1z"></path></svg>
+          Falar com um advogado
+        </a>
+      </div>
+      <ul class="rise-3 m-list" style="list-style: none; margin: 44px 0 0; padding: 24px 0 0; border-top: 1px solid rgba(255,255,255,0.12); display: flex; flex-wrap: wrap; gap: 12px 28px; font-size: 15px; color: rgba(243,243,241,0.82)">
+        <li style="display: flex; align-items: center; gap: 10px"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#D9B66F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg>3 advogados na equipe</li>
+        <li style="display: flex; align-items: center; gap: 10px"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#D9B66F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg>Atendimento em todo o Estado de SP</li>
+        <li style="display: flex; align-items: center; gap: 10px"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#D9B66F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg>Orientação sem promessas</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ================= MARQUEE ================= -->
+<div aria-hidden="true" style="background: #09090B; border-top: 1px solid rgba(217,182,111,0.2); border-bottom: 1px solid rgba(217,182,111,0.2); overflow: hidden; padding: 18px 0">
+  <div class="marq" style="font-family: 'Plus Jakarta Sans', Inter, sans-serif; font-size: 15px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: #D9B66F; gap: 40px; padding-right: 40px">
+    <span>BPC/LOAS para autistas</span><span style="color: rgba(217,182,111,0.5)">◆</span><span>BPC/LOAS para idosos</span><span style="color: rgba(217,182,111,0.5)">◆</span><span>Auxílio-acidente</span><span style="color: rgba(217,182,111,0.5)">◆</span><span>Auxílio-doença</span><span style="color: rgba(217,182,111,0.5)">◆</span><span>Salário-maternidade</span><span style="color: rgba(217,182,111,0.5)">◆</span><span>Atendimento pelo WhatsApp</span><span style="color: rgba(217,182,111,0.5)">◆</span>
+    <span>BPC/LOAS para autistas</span><span style="color: rgba(217,182,111,0.5)">◆</span><span>BPC/LOAS para idosos</span><span style="color: rgba(217,182,111,0.5)">◆</span><span>Auxílio-acidente</span><span style="color: rgba(217,182,111,0.5)">◆</span><span>Auxílio-doença</span><span style="color: rgba(217,182,111,0.5)">◆</span><span>Salário-maternidade</span><span style="color: rgba(217,182,111,0.5)">◆</span><span>Atendimento pelo WhatsApp</span><span style="color: rgba(217,182,111,0.5)">◆</span>
+  </div>
+</div>
+
+<!-- ================= 02 · SITUAÇÕES ================= -->
+<section id="situacoes" style="padding: clamp(72px, 9vw, 120px) 0; background: #F3F3F1">
+  <div style="max-width: 1280px; margin: 0 auto; padding: 0 24px">
+    <div class="m-c m-col" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 20px 64px; margin-bottom: 48px">
+      <h2 style="flex: 1 1 520px; margin: 0; font-family: 'Plus Jakarta Sans', Inter, sans-serif; font-weight: 800; font-size: clamp(34px, 4.4vw, 56px); line-height: 1.04; letter-spacing: -1.6px; color: #0E0E10">Qual situação você está enfrentando?</h2>
+      <p style="flex: 0 1 380px; margin: 0; font-size: 18px; line-height: 1.6; color: #55565C">Toque na opção mais parecida com a sua realidade e fale com a equipe já sobre o assunto certo.</p>
+    </div>
+
+    <div style="display: flex; flex-wrap: wrap; gap: 16px">
+      <a href="#contato" data-cta data-area="autismo" class="pcard" style="flex: 1 1 400px; min-height: 576px; padding: clamp(24px, 3vw, 36px)">
+        <img src="assets/autismo.webp" alt="Mãe acompanhando o filho que brinca com blocos de montar na sala" width="1800" height="1200" loading="lazy" decoding="async" style="object-position: 60% center">
+        <span aria-hidden="true" style="position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgba(14,14,16,0) 25%, rgba(14,14,16,0.92) 78%)"></span>
+        <span class="m-badge" style="position: absolute; top: 24px; left: 24px; padding: 8px 14px; border-radius: 999px; background: #D9B66F; color: #0E0E10; font-size: 12px; font-weight: 800; letter-spacing: 1px; text-transform: uppercase">Mais procurado</span>
+        <span style="font-family: 'Plus Jakarta Sans', Inter, sans-serif; font-size: 14px; font-weight: 700; color: #D9B66F; margin-bottom: 10px">01</span>
+        <span style="font-family: 'Plus Jakarta Sans', Inter, sans-serif; font-size: clamp(28px, 3vw, 38px); font-weight: 800; line-height: 1.05; letter-spacing: -1px; margin-bottom: 12px">BPC/LOAS para autistas (TEA)</span>
+        <span style="font-size: 16px; line-height: 1.55; color: rgba(255,255,255,0.84); max-width: 420px; margin-bottom: 22px">Orientação para famílias que buscam entender os critérios do benefício assistencial para pessoas com deficiência.</span>
+        <span style="display: flex; align-items: center; gap: 12px; font-weight: 700; font-size: 15px">
+          <span class="go" aria-hidden="true" style="width: 44px; height: 44px; border-radius: 50%; border: 1px solid rgba(217,182,111,0.7); display: flex; align-items: center; justify-content: center; color: #D9B66F"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span>
+          Iniciar atendimento
+        </span>
+      </a>
+
+      <div style="flex: 1.4 1 520px; min-width: 0; display: flex; flex-wrap: wrap; gap: 16px">
+        <a href="#contato" data-cta data-area="idoso" class="pcard" style="flex: 1 1 260px; min-height: 280px; padding: 26px">
+          <img src="assets/idoso.webp" alt="Casal de idosos sorrindo na sala de casa" width="1800" height="1200" loading="lazy" decoding="async" style="object-position: center 30%">
+          <span aria-hidden="true" style="position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgba(14,14,16,0.05) 20%, rgba(14,14,16,0.9) 85%)"></span>
+          <span style="font-family: 'Plus Jakarta Sans', Inter, sans-serif; font-size: 14px; font-weight: 700; color: #D9B66F; margin-bottom: 8px">02</span>
+          <span style="font-family: 'Plus Jakarta Sans', Inter, sans-serif; font-size: 24px; font-weight: 800; line-height: 1.1; letter-spacing: -0.5px; margin-bottom: 8px">BPC/LOAS para idosos</span>
+          <span style="font-size: 15px; line-height: 1.5; color: rgba(255,255,255,0.84)">Para quem tem 65 anos ou mais e não tem meios de garantir o próprio sustento.</span>
+        </a>
+        <a href="#contato" data-cta data-area="acidente" class="pcard" style="flex: 1 1 260px; min-height: 280px; padding: 26px">
+          <img src="assets/trabalhador.webp" alt="Trabalhador da construção civil com capacete e colete" width="1800" height="1201" loading="lazy" decoding="async" style="object-position: 62% 25%">
+          <span aria-hidden="true" style="position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgba(14,14,16,0.05) 20%, rgba(14,14,16,0.9) 85%)"></span>
+          <span style="font-family: 'Plus Jakarta Sans', Inter, sans-serif; font-size: 14px; font-weight: 700; color: #D9B66F; margin-bottom: 8px">03</span>
+          <span style="font-family: 'Plus Jakarta Sans', Inter, sans-serif; font-size: 24px; font-weight: 800; line-height: 1.1; letter-spacing: -0.5px; margin-bottom: 8px">Auxílio-acidente</span>
+          <span style="font-size: 15px; line-height: 1.5; color: rgba(255,255,255,0.84)">Para trabalhadores que ficaram com sequelas permanentes após um acidente.</span>
+        </a>
+        <a href="#contato" data-cta data-area="doenca" class="pcard" style="flex: 1 1 260px; min-height: 280px; padding: 26px">
+          <img src="assets/doenca.webp" alt="Homem conversando com o médico sobre resultados de exames" width="1800" height="1200" loading="lazy" decoding="async" style="object-position: 70% center">
+          <span aria-hidden="true" style="position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgba(14,14,16,0.05) 20%, rgba(14,14,16,0.9) 85%)"></span>
+          <span style="font-family: 'Plus Jakarta Sans', Inter, sans-serif; font-size: 14px; font-weight: 700; color: #D9B66F; margin-bottom: 8px">04</span>
+          <span style="font-family: 'Plus Jakarta Sans', Inter, sans-serif; font-size: 24px; font-weight: 800; line-height: 1.1; letter-spacing: -0.5px; margin-bottom: 8px">Auxílio-doença</span>
+          <span style="font-size: 15px; line-height: 1.5; color: rgba(255,255,255,0.84)">Para quem está incapacitado para o trabalho, inclusive com benefício negado ou cortado.</span>
+        </a>
+        <a href="#contato" data-cta data-area="maternidade" class="pcard" style="flex: 1 1 260px; min-height: 280px; padding: 26px">
+          <img src="assets/maternidade.webp" alt="Mãe sorrindo ao lado do filho pequeno à mesa" width="1800" height="1200" loading="lazy" decoding="async" style="object-position: 45% center">
+          <span aria-hidden="true" style="position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgba(14,14,16,0.05) 20%, rgba(14,14,16,0.9) 85%)"></span>
+          <span style="font-family: 'Plus Jakarta Sans', Inter, sans-serif; font-size: 14px; font-weight: 700; color: #D9B66F; margin-bottom: 8px">05</span>
+          <span style="font-family: 'Plus Jakarta Sans', Inter, sans-serif; font-size: 24px; font-weight: 800; line-height: 1.1; letter-spacing: -0.5px; margin-bottom: 8px">Salário-maternidade</span>
+          <span style="font-size: 15px; line-height: 1.5; color: rgba(255,255,255,0.84)">Para mães desempregadas, autônomas e MEIs que querem verificar seus direitos.</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 03 · ENTENDA CADA BENEFÍCIO (abas) ================= -->
+<section id="beneficios" style="padding: 0 0 clamp(72px, 9vw, 120px); background: #F3F3F1">
+  <div style="max-width: 1280px; margin: 0 auto; padding: 0 24px">
+    <div style="background: #0E0E10; color: #F3F3F1; border-radius: 32px; padding: clamp(28px, 5vw, 64px); position: relative; overflow: hidden">
+      <div aria-hidden="true" style="position: absolute; top: -200px; right: -160px; width: 520px; height: 520px; border-radius: 50%; background: radial-gradient(circle, rgba(217,182,111,0.18), rgba(217,182,111,0) 65%)"></div>
+      <div class="m-c m-col" style="position: relative; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 24px; margin-bottom: 36px">
+        <h2 style="margin: 0; flex: 1 1 460px; font-family: 'Plus Jakarta Sans', Inter, sans-serif; font-weight: 800; font-size: clamp(30px, 3.8vw, 48px); line-height: 1.06; letter-spacing: -1.4px; color: #FFFFFF">Entenda cada benefício <span class="gold">em poucas linhas.</span></h2>
+        <p style="margin: 0; flex: 0 1 340px; font-size: 16px; line-height: 1.6; color: rgba(243,243,241,0.7)">Informação clara, sem juridiquês. Nenhum benefício é automático: cada caso precisa ser analisado.</p>
+      </div>
+      <div class="m-jc" role="group" aria-label="Escolha um benefício" style="position: relative; display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 36px">
+          <button class="tab on" type="button" data-tab="1" aria-pressed="true">BPC · Autismo</button>
+          <button class="tab" type="button" data-tab="2" aria-pressed="false">BPC · Idoso</button>
+          <button class="tab" type="button" data-tab="3" aria-pressed="false">Auxílio-acidente</button>
+          <button class="tab" type="button" data-tab="4" aria-pressed="false">Auxílio-doença</button>
+          <button class="tab" type="button" data-tab="5" aria-pressed="false">Salário-maternidade</button>
+      </div>
+
+      <div class="panel" data-panel="1">
+        <div style="position: relative; display: flex; flex-wrap: wrap; gap: 40px 56px; align-items: center">
+          <div style="flex: 1 1 420px; min-width: 0; position: relative">
+            <div style="aspect-ratio: 4 / 3; border-radius: 22px; overflow: hidden"><img src="assets/autismo.webp" alt="Mãe acompanhando o filho que brinca com blocos de montar" width="1800" height="1200" loading="lazy" decoding="async" style="display: block; width: 100%; height: 100%; object-fit: cover; object-position: 60% center"></div>
+            <div aria-hidden="true" style="position: absolute; top: -12px; left: -12px; width: 90px; height: 90px; border-top: 1.5px solid #D9B66F; border-left: 1.5px solid #D9B66F; border-top-left-radius: 6px"></div>
+          </div>
+          <div class="m-c" style="flex: 1 1 420px; min-width: 0">
+            <p style="margin: 0 0 14px; font-size: 13px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: #D9B66F">BPC/LOAS · Autismo</p>
+            <h3 style="margin: 0 0 18px; font-family: 'Plus Jakarta Sans', Inter, sans-serif; font-weight: 800; font-size: clamp(26px, 2.8vw, 36px); line-height: 1.1; letter-spacing: -0.8px; color: #FFFFFF">Famílias de pessoas com autismo podem ter direito ao BPC/LOAS.</h3>
+            <p style="margin: 0 0 24px; font-size: 17px; line-height: 1.65; color: rgba(243,243,241,0.8)">A lei reconhece a pessoa com TEA como pessoa com deficiência. O benefício pode ser concedido quando ela atende aos critérios legais. É um salário mínimo por mês e não exige contribuição ao INSS.</p>
+            <ul class="m-list" style="list-style: none; margin: 0 0 30px; padding: 0; display: flex; flex-direction: column; gap: 12px; font-size: 16px; color: #F3F3F1">
+              <li style="display: flex; gap: 12px; align-items: flex-start"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#D9B66F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex: none"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg>Avaliação da deficiência: perícia médica e avaliação social</li>
+              <li style="display: flex; gap: 12px; align-items: flex-start"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#D9B66F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex: none"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg>Renda da família por pessoa, conforme os critérios da lei</li>
+              <li style="display: flex; gap: 12px; align-items: flex-start"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#D9B66F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex: none"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg>Laudos, relatórios médicos e CadÚnico atualizado</li>
+            </ul>
+            <a href="#contato" data-cta data-area="autismo" class="wa-btn"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 20.5l1.3-4.2A8.5 8.5 0 1 1 8 19.4z"></path><path d="M9 8.6c0 3.4 2.9 6.3 6.3 6.3l1.2-1.6-2.1-1-1 .9a4.6 4.6 0 0 1-2.7-2.7l.9-1-1-2.1z"></path></svg>Quero orientação sobre o BPC</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel" data-panel="2" hidden>
+        <div style="position: relative; display: flex; flex-wrap: wrap; gap: 40px 56px; align-items: center">
+          <div style="flex: 1 1 420px; min-width: 0; position: relative">
+            <div style="aspect-ratio: 4 / 3; border-radius: 22px; overflow: hidden"><img src="assets/idoso.webp" alt="Casal de idosos sorrindo em casa" width="1800" height="1200" loading="lazy" decoding="async" style="display: block; width: 100%; height: 100%; object-fit: cover"></div>
+            <div aria-hidden="true" style="position: absolute; top: -12px; left: -12px; width: 90px; height: 90px; border-top: 1.5px solid #D9B66F; border-left: 1.5px solid #D9B66F; border-top-left-radius: 6px"></div>
+          </div>
+          <div class="m-c" style="flex: 1 1 420px; min-width: 0">
+            <p style="margin: 0 0 14px; font-size: 13px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: #D9B66F">BPC/LOAS · Idosos</p>
+            <h3 style="margin: 0 0 18px; font-family: 'Plus Jakarta Sans', Inter, sans-serif; font-weight: 800; font-size: clamp(26px, 2.8vw, 36px); line-height: 1.1; letter-spacing: -0.8px; color: #FFFFFF">Tem 65 anos ou mais e nunca contribuiu para o INSS?</h3>
+            <p style="margin: 0 0 24px; font-size: 17px; line-height: 1.65; color: rgba(243,243,241,0.8)">O BPC pode ser uma alternativa para idosos que atendam aos critérios legais, mesmo sem histórico de contribuição previdenciária.</p>
+            <ul class="m-list" style="list-style: none; margin: 0 0 30px; padding: 0; display: flex; flex-direction: column; gap: 12px; font-size: 16px; color: #F3F3F1">
+              <li style="display: flex; gap: 12px; align-items: flex-start"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#D9B66F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex: none"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg>Idade mínima de 65 anos</li>
+              <li style="display: flex; gap: 12px; align-items: flex-start"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#D9B66F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex: none"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg>Renda da família por pessoa dentro dos critérios legais</li>
+              <li style="display: flex; gap: 12px; align-items: flex-start"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#D9B66F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex: none"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg>Inscrição atualizada no CadÚnico</li>
+            </ul>
+            <a href="#contato" data-cta data-area="idoso" class="wa-btn"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 20.5l1.3-4.2A8.5 8.5 0 1 1 8 19.4z"></path><path d="M9 8.6c0 3.4 2.9 6.3 6.3 6.3l1.2-1.6-2.1-1-1 .9a4.6 4.6 0 0 1-2.7-2.7l.9-1-1-2.1z"></path></svg>Conversar sobre o BPC para idoso</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel" data-panel="3" hidden>
+        <div style="position: relative; display: flex; flex-wrap: wrap; gap: 40px 56px; align-items: center">
+          <div style="flex: 1 1 420px; min-width: 0; position: relative">
+            <div style="aspect-ratio: 4 / 3; border-radius: 22px; overflow: hidden"><img src="assets/trabalhador.webp" alt="Trabalhador da construção civil com capacete e colete" width="1800" height="1201" loading="lazy" decoding="async" style="display: block; width: 100%; height: 100%; object-fit: cover; object-position: 62% 30%"></div>
+            <div aria-hidden="true" style="position: absolute; top: -12px; left: -12px; width: 90px; height: 90px; border-top: 1.5px solid #D9B66F; border-left: 1.5px solid #D9B66F; border-top-left-radius: 6px"></div>
+          </div>
+          <div class="m-c" style="flex: 1 1 420px; min-width: 0">
+            <p style="margin: 0 0 14px; font-size: 13px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: #D9B66F">Auxílio-acidente</p>
+            <h3 style="margin: 0 0 18px; font-family: 'Plus Jakarta Sans', Inter, sans-serif; font-weight: 800; font-size: clamp(26px, 2.8vw, 36px); line-height: 1.1; letter-spacing: -0.8px; color: #FFFFFF">Ficou com sequelas após um acidente?</h3>
+            <p style="margin: 0 0 24px; font-size: 17px; line-height: 1.65; color: rgba(243,243,241,0.8)">O auxílio-acidente pode ser devido ao segurado que atenda aos requisitos legais e tenha ficado com redução permanente da capacidade para o trabalho que exercia.</p>
+            <ul class="m-list" style="list-style: none; margin: 0 0 30px; padding: 0; display: flex; flex-direction: column; gap: 12px; font-size: 16px; color: #F3F3F1">
+              <li style="display: flex; gap: 12px; align-items: flex-start"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#D9B66F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex: none"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg>O acidente não precisa ter acontecido no trabalho</li>
+              <li style="display: flex; gap: 12px; align-items: flex-start"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#D9B66F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex: none"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg>Pode ser recebido junto com o salário</li>
+              <li style="display: flex; gap: 12px; align-items: flex-start"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#D9B66F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex: none"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg>Depende da categoria de segurado e das sequelas</li>
+            </ul>
+            <a href="#contato" data-cta data-area="acidente" class="wa-btn"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 20.5l1.3-4.2A8.5 8.5 0 1 1 8 19.4z"></path><path d="M9 8.6c0 3.4 2.9 6.3 6.3 6.3l1.2-1.6-2.1-1-1 .9a4.6 4.6 0 0 1-2.7-2.7l.9-1-1-2.1z"></path></svg>Conversar sobre auxílio-acidente</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel" data-panel="4" hidden>
+        <div style="position: relative; display: flex; flex-wrap: wrap; gap: 40px 56px; align-items: center">
+          <div style="flex: 1 1 420px; min-width: 0; position: relative">
+            <div style="aspect-ratio: 4 / 3; border-radius: 22px; overflow: hidden"><img src="assets/doenca.webp" alt="Homem conversando com o médico sobre resultados de exames" width="1800" height="1200" loading="lazy" decoding="async" style="display: block; width: 100%; height: 100%; object-fit: cover; object-position: 65% center"></div>
+            <div aria-hidden="true" style="position: absolute; top: -12px; left: -12px; width: 90px; height: 90px; border-top: 1.5px solid #D9B66F; border-left: 1.5px solid #D9B66F; border-top-left-radius: 6px"></div>
+          </div>
+          <div class="m-c" style="flex: 1 1 420px; min-width: 0">
+            <p style="margin: 0 0 14px; font-size: 13px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: #D9B66F">Auxílio-doença</p>
+            <h3 style="margin: 0 0 18px; font-family: 'Plus Jakarta Sans', Inter, sans-serif; font-weight: 800; font-size: clamp(26px, 2.8vw, 36px); line-height: 1.1; letter-spacing: -0.8px; color: #FFFFFF">Teve seu benefício negado pelo INSS?</h3>
+            <p style="margin: 0 0 24px; font-size: 17px; line-height: 1.65; color: rgba(243,243,241,0.8)">Uma negativa não significa, necessariamente, que você não tenha direito. Vale analisar com cuidado antes de desistir.</p>
+            <ul class="m-list" style="list-style: none; margin: 0 0 30px; padding: 0; display: flex; flex-direction: column; gap: 12px; font-size: 16px; color: #F3F3F1">
+              <li style="display: flex; gap: 12px; align-items: flex-start"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#D9B66F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex: none"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg>Os motivos da decisão do INSS</li>
+              <li style="display: flex; gap: 12px; align-items: flex-start"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#D9B66F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex: none"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg>Os laudos, exames e documentos médicos</li>
+              <li style="display: flex; gap: 12px; align-items: flex-start"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#D9B66F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex: none"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg>Os requisitos legais do benefício</li>
+            </ul>
+            <a href="#contato" data-cta data-area="doenca" class="wa-btn"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 20.5l1.3-4.2A8.5 8.5 0 1 1 8 19.4z"></path><path d="M9 8.6c0 3.4 2.9 6.3 6.3 6.3l1.2-1.6-2.1-1-1 .9a4.6 4.6 0 0 1-2.7-2.7l.9-1-1-2.1z"></path></svg>Conversar sobre meu benefício</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel" data-panel="5" hidden>
+        <div style="position: relative; display: flex; flex-wrap: wrap; gap: 40px 56px; align-items: center">
+          <div style="flex: 1 1 420px; min-width: 0; position: relative">
+            <div style="aspect-ratio: 4 / 3; border-radius: 22px; overflow: hidden"><img src="assets/maternidade.webp" alt="Mãe sorrindo ao lado do filho pequeno" width="1800" height="1200" loading="lazy" decoding="async" style="display: block; width: 100%; height: 100%; object-fit: cover; object-position: 45% center"></div>
+            <div aria-hidden="true" style="position: absolute; top: -12px; left: -12px; width: 90px; height: 90px; border-top: 1.5px solid #D9B66F; border-left: 1.5px solid #D9B66F; border-top-left-radius: 6px"></div>
+          </div>
+          <div class="m-c" style="flex: 1 1 420px; min-width: 0">
+            <p style="margin: 0 0 14px; font-size: 13px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: #D9B66F">Salário-maternidade</p>
+            <h3 style="margin: 0 0 18px; font-family: 'Plus Jakarta Sans', Inter, sans-serif; font-weight: 800; font-size: clamp(26px, 2.8vw, 36px); line-height: 1.1; letter-spacing: -0.8px; color: #FFFFFF">Está desempregada, é autônoma ou MEI?</h3>
+            <p style="margin: 0 0 24px; font-size: 17px; line-height: 1.65; color: rgba(243,243,241,0.8)">Determinadas situações permitem receber o salário-maternidade mesmo sem carteira assinada no momento, conforme o histórico previdenciário e os requisitos aplicáveis.</p>
+            <ul class="m-list" style="list-style: none; margin: 0 0 30px; padding: 0; display: flex; flex-direction: column; gap: 12px; font-size: 16px; color: #F3F3F1">
+              <li style="display: flex; gap: 12px; align-items: flex-start"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#D9B66F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex: none"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg>Mães desempregadas que ainda mantêm a qualidade de segurada</li>
+              <li style="display: flex; gap: 12px; align-items: flex-start"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#D9B66F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex: none"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg>Autônomas e MEIs que contribuem para o INSS</li>
+              <li style="display: flex; gap: 12px; align-items: flex-start"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#D9B66F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex: none"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg>Análise do histórico de contribuições</li>
+            </ul>
+            <a href="#contato" data-cta data-area="maternidade" class="wa-btn"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 20.5l1.3-4.2A8.5 8.5 0 1 1 8 19.4z"></path><path d="M9 8.6c0 3.4 2.9 6.3 6.3 6.3l1.2-1.6-2.1-1-1 .9a4.6 4.6 0 0 1-2.7-2.7l.9-1-1-2.1z"></path></svg>Verificar salário-maternidade</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= DIFERENCIAIS ================= -->
+<section id="diferenciais" style="background: #0E0E10; color: #F3F3F1; padding: clamp(72px, 9vw, 120px) 0; position: relative; overflow: hidden">
+  <div aria-hidden="true" style="position: absolute; top: -240px; right: -200px; width: 620px; height: 620px; border-radius: 50%; background: radial-gradient(circle, rgba(217,182,111,0.13), rgba(217,182,111,0) 65%)"></div>
+  <div style="position: relative; max-width: 1280px; margin: 0 auto; padding: 0 24px">
+    <div class="m-c m-col" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 20px 64px; margin-bottom: 52px">
+      <div style="flex: 1 1 560px; min-width: 0">
+        <p style="margin: 0 0 16px; font-size: 13px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: #D9B66F">Nossos diferenciais</p>
+        <h2 style="margin: 0; font-family: 'Plus Jakarta Sans', Inter, sans-serif; font-weight: 800; font-size: clamp(34px, 4.4vw, 56px); line-height: 1.04; letter-spacing: -1.6px; color: #FFFFFF">Por que buscar orientação com o <span class="gold">Luciano Lopes Advocacia.</span></h2>
+      </div>
+      <p style="flex: 0 1 380px; margin: 0; font-size: 17px; line-height: 1.6; color: rgba(243,243,241,0.7)">Uma estrutura pensada para que você seja ouvido com atenção e entenda cada passo do seu caso.</p>
+    </div>
+
+    <div style="display: flex; flex-wrap: wrap; gap: 16px">
+      <div class="dcard" style="flex: 1 1 340px; min-width: 0; border-radius: 22px; padding: 32px; background: linear-gradient(135deg, #F3DFA6 0%, #D9B66F 50%, #B88F45 100%); color: #111113; display: flex; flex-direction: column; gap: 14px">
+        <span aria-hidden="true" style="width: 52px; height: 52px; border-radius: 14px; background: rgba(17,17,19,0.1); display: flex; align-items: center; justify-content: center"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#111113" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="8" r="2.6"></circle><circle cx="16" cy="8" r="2.6"></circle><circle cx="12" cy="6" r="2.6"></circle><path d="M3 19c.5-2.8 2.5-4.6 5-4.6M21 19c-.5-2.8-2.5-4.6-5-4.6M7.5 19c.6-3 2.4-5 4.5-5s3.9 2 4.5 5"></path></svg></span>
+        <h3 style="margin: 0; font-family: 'Plus Jakarta Sans', Inter, sans-serif; font-weight: 800; font-size: 22px; letter-spacing: -0.4px">Três advogados na equipe</h3>
+        <p style="margin: 0; font-size: 16px; line-height: 1.6; color: rgba(17,17,19,0.78)">Dr. Luciano, Dr. Luiz e Dr. Giovanni atuam juntos, com o suporte de uma equipe de atendimento dedicada.</p>
+      </div>
+      <div class="dif dcard" style="flex: 1 1 340px; min-width: 0; border-radius: 22px; padding: 32px; background: #151517; border: 1px solid rgba(255,255,255,0.08); display: flex; flex-direction: column; gap: 14px">
+        <span aria-hidden="true" style="width: 52px; height: 52px; border-radius: 14px; background: rgba(217,182,111,0.1); display: flex; align-items: center; justify-content: center"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#D9B66F" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"></path><circle cx="12" cy="9.5" r="2.5"></circle></svg></span>
+        <h3 style="margin: 0; font-family: 'Plus Jakarta Sans', Inter, sans-serif; font-weight: 800; font-size: 22px; letter-spacing: -0.4px; color: #FFFFFF">Todo o Estado de São Paulo</h3>
+        <p style="margin: 0; font-size: 16px; line-height: 1.6; color: rgba(243,243,241,0.7)">Você começa o atendimento de onde estiver, sem precisar se deslocar para o primeiro contato.</p>
+      </div>
+      <div class="dif dcard" style="flex: 1 1 340px; min-width: 0; border-radius: 22px; padding: 32px; background: #151517; border: 1px solid rgba(255,255,255,0.08); display: flex; flex-direction: column; gap: 14px">
+        <span aria-hidden="true" style="width: 52px; height: 52px; border-radius: 14px; background: rgba(217,182,111,0.1); display: flex; align-items: center; justify-content: center"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#D9B66F" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 20.5l1.3-4.2A8.5 8.5 0 1 1 8 19.4z"></path><path d="M9 8.6c0 3.4 2.9 6.3 6.3 6.3l1.2-1.6-2.1-1-1 .9a4.6 4.6 0 0 1-2.7-2.7l.9-1-1-2.1z"></path></svg></span>
+        <h3 style="margin: 0; font-family: 'Plus Jakarta Sans', Inter, sans-serif; font-weight: 800; font-size: 22px; letter-spacing: -0.4px; color: #FFFFFF">Começa pelo WhatsApp</h3>
+        <p style="margin: 0; font-size: 16px; line-height: 1.6; color: rgba(243,243,241,0.7)">O primeiro passo é simples: você conta sua situação por mensagem, no seu tempo.</p>
+      </div>
+      <div class="dif dcard" style="flex: 1 1 340px; min-width: 0; border-radius: 22px; padding: 32px; background: #151517; border: 1px solid rgba(255,255,255,0.08); display: flex; flex-direction: column; gap: 14px">
+        <span aria-hidden="true" style="width: 52px; height: 52px; border-radius: 14px; background: rgba(217,182,111,0.1); display: flex; align-items: center; justify-content: center"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#D9B66F" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16v11H9l-5 4z"></path><path d="M8 9.5h8M8 12.5h5"></path></svg></span>
+        <h3 style="margin: 0; font-family: 'Plus Jakarta Sans', Inter, sans-serif; font-weight: 800; font-size: 22px; letter-spacing: -0.4px; color: #FFFFFF">Linguagem simples</h3>
+        <p style="margin: 0; font-size: 16px; line-height: 1.6; color: rgba(243,243,241,0.7)">Explicação clara, sem juridiquês, para você entender o que está acontecendo no seu caso.</p>
+      </div>
+      <div class="dif dcard" style="flex: 1 1 340px; min-width: 0; border-radius: 22px; padding: 32px; background: #151517; border: 1px solid rgba(255,255,255,0.08); display: flex; flex-direction: column; gap: 14px">
+        <span aria-hidden="true" style="width: 52px; height: 52px; border-radius: 14px; background: rgba(217,182,111,0.1); display: flex; align-items: center; justify-content: center"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#D9B66F" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3h7l5 5v13H7z"></path><path d="M14 3v5h5"></path><circle cx="12" cy="14" r="2.6"></circle><path d="M14 16l2 2"></path></svg></span>
+        <h3 style="margin: 0; font-family: 'Plus Jakarta Sans', Inter, sans-serif; font-weight: 800; font-size: 22px; letter-spacing: -0.4px; color: #FFFFFF">Análise individual</h3>
+        <p style="margin: 0; font-size: 16px; line-height: 1.6; color: rgba(243,243,241,0.7)">Cada caso é olhado com atenção, a partir dos seus documentos e da sua história.</p>
+      </div>
+      <div class="dif dcard" style="flex: 1 1 340px; min-width: 0; border-radius: 22px; padding: 32px; background: #151517; border: 1px solid rgba(255,255,255,0.08); display: flex; flex-direction: column; gap: 14px">
+        <span aria-hidden="true" style="width: 52px; height: 52px; border-radius: 14px; background: rgba(217,182,111,0.1); display: flex; align-items: center; justify-content: center"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#D9B66F" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5.5c0 4.4-3 8.2-7 9.5-4-1.3-7-5.1-7-9.5V6z"></path><path d="M9 12l2 2 4-4"></path></svg></span>
+        <h3 style="margin: 0; font-family: 'Plus Jakarta Sans', Inter, sans-serif; font-weight: 800; font-size: 22px; letter-spacing: -0.4px; color: #FFFFFF">Transparência desde o início</h3>
+        <p style="margin: 0; font-size: 16px; line-height: 1.6; color: rgba(243,243,241,0.7)">Orientação responsável, sem promessas de resultado e com clareza sobre as possibilidades.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 04 · COMO FUNCIONA ================= -->
+<section id="como-funciona" style="background: #FFFFFF; padding: clamp(72px, 9vw, 120px) 0">
+  <div style="max-width: 1280px; margin: 0 auto; padding: 0 24px; display: flex; flex-wrap: wrap; align-items: center; gap: 56px 96px">
+    <div class="m-c" style="flex: 1.2 1 480px; min-width: 0">
+      <p style="margin: 0 0 16px; font-size: 13px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: #8A6A33">Como funciona</p>
+      <h2 style="margin: 0 0 48px; font-family: 'Plus Jakarta Sans', Inter, sans-serif; font-weight: 800; font-size: clamp(32px, 4vw, 52px); line-height: 1.05; letter-spacing: -1.5px; color: #0E0E10">Buscar orientação pode ser mais simples do que você imagina.</h2>
+      <ol style="list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column">
+        <li class="m-step" style="display: flex; gap: 24px">
+          <div aria-hidden="true" style="flex: none; display: flex; flex-direction: column; align-items: center">
+            <span style="width: 56px; height: 56px; border-radius: 16px; background: #0E0E10; display: flex; align-items: center; justify-content: center; font-family: 'Plus Jakarta Sans', Inter, sans-serif; font-weight: 800; font-size: 18px"><span class="gold">01</span></span>
+            <span class="m-line" style="flex: 1; width: 2px; min-height: 28px; background: linear-gradient(180deg, #D9B66F, rgba(217,182,111,0.2))"></span>
+          </div>
+          <div style="padding: 12px 0 36px"><h3 style="margin: 0 0 6px; font-family: 'Plus Jakarta Sans', Inter, sans-serif; font-size: 22px; font-weight: 800; color: #0E0E10">Entre em contato</h3><p style="margin: 0; font-size: 17px; line-height: 1.6; color: #55565C">Conte brevemente sua situação pelo WhatsApp.</p></div>
+        </li>
+        <li class="m-step" style="display: flex; gap: 24px">
+          <div aria-hidden="true" style="flex: none; display: flex; flex-direction: column; align-items: center">
+            <span style="width: 56px; height: 56px; border-radius: 16px; background: #0E0E10; display: flex; align-items: center; justify-content: center; font-family: 'Plus Jakarta Sans', Inter, sans-serif; font-weight: 800; font-size: 18px"><span class="gold">02</span></span>
+            <span class="m-line" style="flex: 1; width: 2px; min-height: 28px; background: linear-gradient(180deg, #D9B66F, rgba(217,182,111,0.2))"></span>
+          </div>
+          <div style="padding: 12px 0 36px"><h3 style="margin: 0 0 6px; font-family: 'Plus Jakarta Sans', Inter, sans-serif; font-size: 22px; font-weight: 800; color: #0E0E10">Análise inicial</h3><p style="margin: 0; font-size: 17px; line-height: 1.6; color: #55565C">A equipe realiza o primeiro atendimento para compreender sua necessidade e identificar os próximos passos.</p></div>
+        </li>
+        <li class="m-step" style="display: flex; gap: 24px">
+          <div aria-hidden="true" style="flex: none; display: flex; flex-direction: column; align-items: center">
+            <span style="width: 56px; height: 56px; border-radius: 16px; background: #0E0E10; display: flex; align-items: center; justify-content: center; font-family: 'Plus Jakarta Sans', Inter, sans-serif; font-weight: 800; font-size: 18px"><span class="gold">03</span></span>
+          </div>
+          <div style="padding: 12px 0 0"><h3 style="margin: 0 0 6px; font-family: 'Plus Jakarta Sans', Inter, sans-serif; font-size: 22px; font-weight: 800; color: #0E0E10">Orientação jurídica</h3><p style="margin: 0; font-size: 17px; line-height: 1.6; color: #55565C">O caso é encaminhado para avaliação jurídica e orientação sobre as possibilidades existentes.</p></div>
+        </li>
+      </ol>
+    </div>
+
+    <div style="flex: 1 1 340px; min-width: 0; display: flex; justify-content: center">
+      <div style="position: relative; width: 100%; max-width: 340px">
+        <div aria-hidden="true" style="position: absolute; inset: 40px -30px -30px 40px; border-radius: 40px; background: #E6E5E1"></div>
+        <figure style="position: relative; margin: 0; border-radius: 40px; background: #0E0E10; padding: 10px; box-shadow: 0 40px 80px -30px rgba(14,14,16,0.5)">
+          <div style="border-radius: 31px; overflow: hidden; background: #EFE8DC">
+            <div style="background: #0E0E10; color: #FFFFFF; padding: 18px 18px 14px; display: flex; align-items: center; gap: 12px">
+              <span style="width: 40px; height: 40px; border-radius: 50%; background: #1E1E21; display: flex; align-items: center; justify-content: center"><img src="assets/logo-icone.png" alt="" width="182" height="230" loading="lazy" style="width: 19px; height: 24px"></span>
+              <span style="display: flex; flex-direction: column"><strong style="font-size: 15px; font-family: 'Plus Jakarta Sans', Inter, sans-serif">Luciano Lopes Advocacia</strong><span style="font-size: 12px; color: #9FD9B5">online</span></span>
+            </div>
+            <div style="padding: 20px 14px 22px; display: flex; flex-direction: column; gap: 10px; min-height: 340px; font-size: 14px; line-height: 1.45">
+              <span style="align-self: center; font-size: 11px; font-weight: 600; color: #6B7280; background: rgba(255,255,255,0.7); padding: 4px 10px; border-radius: 8px">Exemplo ilustrativo</span>
+              <span style="align-self: flex-end; max-width: 82%; background: #D7F5DD; color: #0E0E10; padding: 10px 12px; border-radius: 14px 14px 4px 14px">Olá! Gostaria de obter orientação sobre o BPC/LOAS para autismo.</span>
+              <span style="align-self: flex-start; max-width: 82%; background: #FFFFFF; color: #0E0E10; padding: 10px 12px; border-radius: 14px 14px 14px 4px">Olá! Que bom ter você aqui. Pode nos contar um pouco sobre a sua situação?</span>
+              <span style="align-self: flex-end; max-width: 82%; background: #D7F5DD; color: #0E0E10; padding: 10px 12px; border-radius: 14px 14px 4px 14px">Claro! Vou explicar.</span>
+              <span aria-hidden="true" style="align-self: flex-start; background: #FFFFFF; padding: 12px 14px; border-radius: 14px 14px 14px 4px; display: flex; gap: 5px">
+                <span class="dot1" style="width: 7px; height: 7px; border-radius: 50%; background: #8A93A6"></span><span class="dot2" style="width: 7px; height: 7px; border-radius: 50%; background: #8A93A6"></span><span class="dot3" style="width: 7px; height: 7px; border-radius: 50%; background: #8A93A6"></span>
+              </span>
+            </div>
+          </div>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 05 · SOBRE ================= -->
+<section id="sobre" style="background: #161618; color: #F3F3F1; padding: clamp(72px, 9vw, 120px) 0; position: relative; overflow: hidden">
+  <div aria-hidden="true" style="position: absolute; left: -200px; bottom: -260px; width: 640px; height: 640px; border-radius: 50%; background: radial-gradient(circle, rgba(217,182,111,0.14), rgba(217,182,111,0) 65%)"></div>
+  <div style="position: relative; max-width: 1280px; margin: 0 auto; padding: 0 24px; display: flex; flex-wrap: wrap; align-items: center; gap: 56px 96px">
+    <div style="flex: 1 1 380px; min-width: 0; display: flex; justify-content: center">
+      <div style="position: relative; width: 100%; max-width: 420px; aspect-ratio: 1 / 1; border-radius: 28px; background: #09090B; border: 1px solid rgba(217,182,111,0.18); display: flex; align-items: center; justify-content: center">
+        <div aria-hidden="true" style="position: absolute; top: 28px; left: 28px; width: 80px; height: 80px; border-top: 1.5px solid rgba(217,182,111,0.7); border-left: 1.5px solid rgba(217,182,111,0.7)"></div>
+        <div aria-hidden="true" style="position: absolute; bottom: 28px; right: 28px; width: 80px; height: 80px; border-bottom: 1.5px solid rgba(217,182,111,0.7); border-right: 1.5px solid rgba(217,182,111,0.7)"></div>
+        <img src="assets/logo.png" alt="Logotipo Luciano Lopes Advocacia" width="327" height="326" loading="lazy" decoding="async" style="display: block; width: 66%; height: auto">
+      </div>
+    </div>
+    <div class="m-c" style="flex: 1.2 1 480px; min-width: 0">
+      <p style="margin: 0 0 16px; font-size: 13px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: #D9B66F">O escritório</p>
+      <h2 style="margin: 0 0 24px; font-family: 'Plus Jakarta Sans', Inter, sans-serif; font-weight: 800; font-size: clamp(30px, 3.8vw, 48px); line-height: 1.06; letter-spacing: -1.4px; color: #FFFFFF">Atendimento próximo, orientação responsável e <span class="gold">compromisso com cada caso.</span></h2>
+      <p style="margin: 0 0 16px; font-size: 18px; line-height: 1.7; color: rgba(243,243,241,0.8)">O Luciano Lopes Advocacia é um escritório sediado em São Paulo, com estrutura para atender pessoas de todo o Estado. Na área previdenciária, a equipe orienta famílias, idosos, trabalhadores e mães sobre benefícios do INSS e benefícios assistenciais.</p>
+      <p style="margin: 0 0 36px; font-size: 18px; line-height: 1.7; color: rgba(243,243,241,0.8)">Cada atendimento começa pela escuta: entender sua história, olhar os documentos com cuidado e explicar as possibilidades com clareza.</p>
+      <div style="display: flex; flex-wrap: wrap; gap: 12px">
+        <div style="flex: 1 1 200px; padding: 18px 20px; border-radius: 16px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1)">
+          <p style="margin: 0 0 2px; font-family: 'Plus Jakarta Sans', Inter, sans-serif; font-weight: 800; font-size: 18px; color: #FFFFFF">Dr. Luciano Lopes</p>
+          <p style="margin: 0; font-size: 14px; color: #D9B66F">Advogado responsável</p>
+        </div>
+        <div style="flex: 1 1 140px; padding: 18px 20px; border-radius: 16px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1)">
+          <p style="margin: 0 0 2px; font-family: 'Plus Jakarta Sans', Inter, sans-serif; font-weight: 800; font-size: 18px; color: #FFFFFF">Dr. Luiz</p>
+          <p style="margin: 0; font-size: 14px; color: #D9B66F">Advogado</p>
+        </div>
+        <div style="flex: 1 1 140px; padding: 18px 20px; border-radius: 16px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1)">
+          <p style="margin: 0 0 2px; font-family: 'Plus Jakarta Sans', Inter, sans-serif; font-weight: 800; font-size: 18px; color: #FFFFFF">Dr. Giovanni</p>
+          <p style="margin: 0; font-size: 14px; color: #D9B66F">Advogado</p>
+        </div>
+      </div>
+      <p style="margin: 18px 0 0; font-size: 15px; line-height: 1.6; color: rgba(243,243,241,0.65)">Com o suporte da equipe de atendimento, que faz o primeiro contato pelo WhatsApp.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 06 · FAQ ================= -->
+<section id="duvidas" style="background: #F3F3F1; padding: clamp(72px, 9vw, 120px) 0">
+  <div style="max-width: 1280px; margin: 0 auto; padding: 0 24px; display: flex; flex-wrap: wrap; gap: 48px 96px">
+    <div class="m-c" style="flex: 1 1 340px; min-width: 0">
+      <p style="margin: 0 0 16px; font-size: 13px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: #8A6A33">Dúvidas frequentes</p>
+      <h2 style="margin: 0 0 20px; font-family: 'Plus Jakarta Sans', Inter, sans-serif; font-weight: 800; font-size: clamp(30px, 3.8vw, 48px); line-height: 1.06; letter-spacing: -1.4px; color: #0E0E10">Respostas diretas para as perguntas mais comuns.</h2>
+      <p style="margin: 0 0 28px; font-size: 17px; line-height: 1.65; color: #55565C">Cada benefício tem requisitos próprios. As respostas são informativas e não substituem a análise do seu caso.</p>
+      <a href="#contato" data-cta data-area="geral" class="lnk">Tirar uma dúvida pelo WhatsApp
+        <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+      </a>
+    </div>
+    <div style="flex: 1.6 1 520px; min-width: 0; background: #FFFFFF; border-radius: 24px; padding: 8px 28px">
+      <div style="border-bottom: 1px solid #E7E7E4">
+        <button class="faq-q" type="button" data-faq="1" aria-controls="faq-a1" aria-expanded="true"><span>Quem tem direito ao BPC/LOAS para autistas?</span><span aria-hidden="true" style="flex: none; width: 36px; height: 36px; border-radius: 50%; background: #F3F3F1; display: flex; align-items: center; justify-content: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#8A6A33" stroke-width="2" stroke-linecap="round" style="transition: transform .3s ease; transform: rotate(45deg)" class="faq-ico"><path d="M12 5v14M5 12h14"></path></svg></span></button>
+        <div class="faq-a" id="faq-a1"><p style="margin: 0; padding: 0 52px 24px 4px; font-size: 17px; line-height: 1.7; color: #55565C">A lei reconhece a pessoa com Transtorno do Espectro Autista (TEA) como pessoa com deficiência. O BPC/LOAS pode ser concedido quando há impedimento de longo prazo, confirmado pela perícia médica e pela avaliação social do INSS, e quando a renda da família por pessoa se enquadra nos critérios legais. Também é exigida inscrição atualizada no CadÚnico. Cada caso precisa ser analisado individualmente.</p></div>
+      </div>
+      <div style="border-bottom: 1px solid #E7E7E4">
+        <button class="faq-q" type="button" data-faq="2" aria-controls="faq-a2" aria-expanded="false"><span>Quem nunca contribuiu para o INSS pode receber algum benefício?</span><span aria-hidden="true" style="flex: none; width: 36px; height: 36px; border-radius: 50%; background: #F3F3F1; display: flex; align-items: center; justify-content: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#8A6A33" stroke-width="2" stroke-linecap="round" style="transition: transform .3s ease; transform: rotate(0deg)" class="faq-ico"><path d="M12 5v14M5 12h14"></path></svg></span></button>
+        <div class="faq-a" id="faq-a2" hidden><p style="margin: 0; padding: 0 52px 24px 4px; font-size: 17px; line-height: 1.7; color: #55565C">Sim, em algumas situações. O BPC/LOAS é um benefício assistencial e não exige contribuição. Ele pode ser destinado a idosos com 65 anos ou mais e a pessoas com deficiência que cumpram os critérios de renda e os demais requisitos. O BPC não é aposentadoria: não paga 13º salário e não deixa pensão por morte.</p></div>
+      </div>
+      <div style="border-bottom: 1px solid #E7E7E4">
+        <button class="faq-q" type="button" data-faq="3" aria-controls="faq-a3" aria-expanded="false"><span>Qual a idade mínima para solicitar o BPC/LOAS do idoso?</span><span aria-hidden="true" style="flex: none; width: 36px; height: 36px; border-radius: 50%; background: #F3F3F1; display: flex; align-items: center; justify-content: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#8A6A33" stroke-width="2" stroke-linecap="round" style="transition: transform .3s ease; transform: rotate(0deg)" class="faq-ico"><path d="M12 5v14M5 12h14"></path></svg></span></button>
+        <div class="faq-a" id="faq-a3" hidden><p style="margin: 0; padding: 0 52px 24px 4px; font-size: 17px; line-height: 1.7; color: #55565C">A idade mínima é de 65 anos, para homens e mulheres. Além da idade, o INSS analisa a renda da família por pessoa e exige inscrição atualizada no CadÚnico. Ter a idade, sozinha, não garante o benefício.</p></div>
+      </div>
+      <div style="border-bottom: 1px solid #E7E7E4">
+        <button class="faq-q" type="button" data-faq="4" aria-controls="faq-a4" aria-expanded="false"><span>O que fazer quando o INSS nega o auxílio-doença?</span><span aria-hidden="true" style="flex: none; width: 36px; height: 36px; border-radius: 50%; background: #F3F3F1; display: flex; align-items: center; justify-content: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#8A6A33" stroke-width="2" stroke-linecap="round" style="transition: transform .3s ease; transform: rotate(0deg)" class="faq-ico"><path d="M12 5v14M5 12h14"></path></svg></span></button>
+        <div class="faq-a" id="faq-a4" hidden><p style="margin: 0; padding: 0 52px 24px 4px; font-size: 17px; line-height: 1.7; color: #55565C">O primeiro passo é entender o motivo da negativa, que aparece na decisão disponível no Meu INSS. Depois, é importante reunir laudos, exames e relatórios médicos atualizados. Conforme o caso, pode ser possível apresentar recurso administrativo (que tem prazo, em regra de 30 dias), fazer um novo pedido ou buscar a via judicial. A melhor alternativa depende da análise da sua situação.</p></div>
+      </div>
+      <div style="border-bottom: 1px solid #E7E7E4">
+        <button class="faq-q" type="button" data-faq="5" aria-controls="faq-a5" aria-expanded="false"><span>Quem sofreu acidente e ficou com sequelas pode receber auxílio-acidente?</span><span aria-hidden="true" style="flex: none; width: 36px; height: 36px; border-radius: 50%; background: #F3F3F1; display: flex; align-items: center; justify-content: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#8A6A33" stroke-width="2" stroke-linecap="round" style="transition: transform .3s ease; transform: rotate(0deg)" class="faq-ico"><path d="M12 5v14M5 12h14"></path></svg></span></button>
+        <div class="faq-a" id="faq-a5" hidden><p style="margin: 0; padding: 0 52px 24px 4px; font-size: 17px; line-height: 1.7; color: #55565C">Pode ter direito o segurado que, após um acidente de qualquer natureza, ficou com sequelas permanentes que reduzem a capacidade para o trabalho que exercia habitualmente. O benefício tem caráter indenizatório e pode ser recebido junto com o salário. Nem todas as categorias de segurado têm acesso a ele, por isso o histórico de trabalho e de contribuições precisa ser analisado.</p></div>
+      </div>
+      <div style="border-bottom: 1px solid #E7E7E4">
+        <button class="faq-q" type="button" data-faq="6" aria-controls="faq-a6" aria-expanded="false"><span>Quem está desempregada pode ter direito ao salário-maternidade?</span><span aria-hidden="true" style="flex: none; width: 36px; height: 36px; border-radius: 50%; background: #F3F3F1; display: flex; align-items: center; justify-content: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#8A6A33" stroke-width="2" stroke-linecap="round" style="transition: transform .3s ease; transform: rotate(0deg)" class="faq-ico"><path d="M12 5v14M5 12h14"></path></svg></span></button>
+        <div class="faq-a" id="faq-a6" hidden><p style="margin: 0; padding: 0 52px 24px 4px; font-size: 17px; line-height: 1.7; color: #55565C">Em algumas situações, sim. Mesmo sem emprego, a mãe pode manter a chamada qualidade de segurada por um período após a última contribuição, e esse prazo varia conforme o histórico. Autônomas e MEIs também podem ter direito, desde que cumpram os requisitos da sua categoria. Por isso, é importante verificar o histórico de contribuições antes de qualquer pedido.</p></div>
+      </div>
+      <div>
+        <button class="faq-q" type="button" data-faq="7" aria-controls="faq-a7" aria-expanded="false"><span>Como funciona a análise do meu caso?</span><span aria-hidden="true" style="flex: none; width: 36px; height: 36px; border-radius: 50%; background: #F3F3F1; display: flex; align-items: center; justify-content: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#8A6A33" stroke-width="2" stroke-linecap="round" style="transition: transform .3s ease; transform: rotate(0deg)" class="faq-ico"><path d="M12 5v14M5 12h14"></path></svg></span></button>
+        <div class="faq-a" id="faq-a7" hidden><p style="margin: 0; padding: 0 52px 24px 4px; font-size: 17px; line-height: 1.7; color: #55565C">Você entra em contato pelo WhatsApp e conta brevemente sua situação. A equipe faz o primeiro atendimento, entende sua necessidade e pode pedir algumas informações ou documentos. Em seguida, o caso é encaminhado para avaliação jurídica, e você recebe orientação sobre as possibilidades existentes.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 07 · CTA FINAL + FORMULÁRIO ================= -->
+<section id="contato" style="position: relative; overflow: hidden; background: #0E0E10; color: #F3F3F1; padding: clamp(72px, 9vw, 120px) 0; isolation: isolate">
+  <img src="assets/contato.webp" alt="" width="1800" height="1200" loading="lazy" decoding="async" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 70% center; z-index: -2">
+  <div aria-hidden="true" style="position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, rgba(14,14,16,0.97) 0%, rgba(14,14,16,0.9) 45%, rgba(14,14,16,0.72) 100%)"></div>
+  <div style="max-width: 1280px; margin: 0 auto; padding: 0 24px; display: flex; flex-wrap: wrap; align-items: center; gap: 48px 96px">
+    <div class="m-c" style="flex: 1.1 1 440px; min-width: 0">
+      <h2 style="margin: 0 0 22px; font-family: 'Plus Jakarta Sans', Inter, sans-serif; font-weight: 800; font-size: clamp(36px, 4.8vw, 62px); line-height: 1.02; letter-spacing: -1.8px; color: #FFFFFF">Precisa de orientação sobre <span class="gold">seu benefício?</span></h2>
+      <p style="margin: 0 0 32px; max-width: 480px; font-size: clamp(17px, 1.5vw, 19px); line-height: 1.6; color: rgba(243,243,241,0.84)">Entre em contato com nossa equipe e saiba como iniciar a análise da sua situação.</p>
+      <ul class="m-list" style="list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 14px; font-size: 16px; color: rgba(243,243,241,0.9)">
+        <li style="display: flex; gap: 12px; align-items: center"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#D9B66F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg>Atendimento em todo o Estado de São Paulo</li>
+        <li style="display: flex; gap: 12px; align-items: center"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#D9B66F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg>Primeiro contato pelo WhatsApp</li>
+        <li style="display: flex; gap: 12px; align-items: center"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#D9B66F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg>Orientação clara, sem promessas</li>
+      </ul>
+    </div>
+
+    <div style="flex: 1 1 380px; min-width: 0">
+      <form class="m-form" id="lead-form" novalidate style="background: #FFFFFF; color: #0E0E10; border-radius: 26px; padding: clamp(26px, 3.4vw, 40px); box-shadow: 0 40px 80px -30px rgba(0,0,0,0.6)">
+        <p style="margin: 0 0 6px; font-family: 'Plus Jakarta Sans', Inter, sans-serif; font-weight: 800; font-size: 24px; letter-spacing: -0.4px">Fale com a equipe</p>
+        <p style="margin: 0 0 24px; font-size: 15px; line-height: 1.5; color: #55565C">Preencha e continue a conversa pelo WhatsApp.</p>
+        <p id="assunto-chip" hidden style="margin: -8px 0 20px; display: inline-flex; align-items: center; gap: 8px; padding: 8px 14px; border-radius: 999px; background: #F5EEDD; font-size: 14px; font-weight: 700; color: #6E5226">
+            <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg>
+            Assunto: <span id="assunto-txt"></span>
+          </p>
+        <div style="display: flex; flex-direction: column; gap: 16px">
+          <label for="f-nome" style="display: flex; flex-direction: column; gap: 8px; font-size: 14px; font-weight: 700; color: #1E1E21">Seu nome
+            <input id="f-nome" class="field" type="text" name="nome" autocomplete="name" placeholder="Como podemos te chamar?" required>
+          </label>
+          <label for="f-wpp" style="display: flex; flex-direction: column; gap: 8px; font-size: 14px; font-weight: 700; color: #1E1E21">Seu WhatsApp
+            <input id="f-wpp" class="field" type="tel" name="whatsapp" inputmode="tel" autocomplete="tel" placeholder="(11) 90000-0000" required>
+          </label>
+          <p id="form-erro" role="alert" hidden style="margin: 0; font-size: 14px; font-weight: 600; color: #A12C2C"></p>
+          <button type="submit" id="form-btn" class="wa-btn" style="width: 100%; margin-top: 4px">
+            <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 20.5l1.3-4.2A8.5 8.5 0 1 1 8 19.4z"></path><path d="M9 8.6c0 3.4 2.9 6.3 6.3 6.3l1.2-1.6-2.1-1-1 .9a4.6 4.6 0 0 1-2.7-2.7l.9-1-1-2.1z"></path></svg>
+            Falar pelo WhatsApp
+          </button>
+          <p style="margin: 0; font-size: 12px; line-height: 1.5; color: #6B7280; text-align: center">Seus dados são usados apenas para este atendimento, conforme a LGPD.</p>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 08 · RODAPÉ ================= -->
+<footer class="m-foot" style="background: #09090B; color: rgba(243,243,241,0.72); padding: 56px 0 104px; font-size: 14px; line-height: 1.6">
+  <div style="max-width: 1280px; margin: 0 auto; padding: 0 24px">
+    <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 32px 64px; padding-bottom: 36px; border-bottom: 1px solid rgba(243,243,241,0.1)">
+      <img src="assets/logo.png" alt="Luciano Lopes Advocacia" width="327" height="326" loading="lazy" decoding="async" style="display: block; width: 132px; height: 132px">
+      <div style="display: flex; flex-wrap: wrap; gap: 32px 64px">
+        <div>
+          <p style="margin: 0 0 6px; color: #FFFFFF; font-weight: 700">WhatsApp</p>
+          <p style="margin: 0; color: #D9B66F; font-weight: 600">(11) 91159-2526</p>
+        </div>
+        <div>
+          <p style="margin: 0 0 6px; color: #FFFFFF; font-weight: 700">Localização</p>
+          <p style="margin: 0">São Paulo, SP</p>
+        </div>
+        <div>
+          <p style="margin: 0 0 6px; color: #FFFFFF; font-weight: 700">Atendimento</p>
+          <p style="margin: 0">Todo o Estado de São Paulo</p>
+        </div>
+      </div>
+    </div>
+    <div style="padding-top: 28px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px 48px">
+      <p style="margin: 0; flex: 1 1 520px; max-width: 760px; font-size: 13px; color: rgba(243,243,241,0.6)"><strong style="color: rgba(243,243,241,0.8)">Aviso de privacidade:</strong> as informações enviadas pelo formulário ou pelo WhatsApp são usadas apenas para o atendimento e a análise da sua solicitação, conforme a Lei Geral de Proteção de Dados (LGPD). Este site tem caráter informativo e não garante a concessão de benefícios. Imagens meramente ilustrativas.</p>
+      <p style="margin: 0; font-size: 13px; color: rgba(243,243,241,0.6)">© 2026 Luciano Lopes Advocacia. Todos os direitos reservados.</p>
+    </div>
+  </div>
+</footer>
+
+<a href="#contato" data-cta data-area="geral" class="fab" aria-label="Ir para o formulário de contato">
+  <svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 20.5l1.3-4.2A8.5 8.5 0 1 1 8 19.4z"></path><path d="M9 8.6c0 3.4 2.9 6.3 6.3 6.3l1.2-1.6-2.1-1-1 .9a4.6 4.6 0 0 1-2.7-2.7l.9-1-1-2.1z"></path></svg>
+</a>
+
+</div>
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

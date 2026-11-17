@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Obrigado | Luciano Lopes Advocacia</title>
+<meta name="theme-color" content="#0E0E10">
+<link rel="icon" href="assets/logo-icone.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Inter:wght@400;500;600&display=swap">
+<style>
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:32px 20px;font-family:Inter,system-ui,sans-serif;color:#F3F3F1;background:#0E0E10;background-image:radial-gradient(ellipse 60% 50% at 50% 0%,rgba(217,182,111,.14),rgba(14,14,16,0) 70%)}
+.card{width:100%;max-width:560px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:22px}
+.logo{width:56px;height:auto}
+h1{margin:0;font-family:'Plus Jakarta Sans',Inter,sans-serif;font-weight:800;font-size:clamp(34px,7vw,52px);line-height:1.05;letter-spacing:-.03em;color:#FFFFFF}
+.gold{background:linear-gradient(100deg,#F6E7B8 0%,#D9B66F 45%,#B08A45 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+p{margin:0;font-size:17px;line-height:1.65;color:rgba(243,243,241,.75)}
+.count{font-family:'Plus Jakarta Sans',Inter,sans-serif;font-weight:800;font-size:44px;color:#D9B66F;line-height:1}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:58px;padding:0 30px;border-radius:14px;text-decoration:none;font-family:'Plus Jakarta Sans',Inter,sans-serif;font-weight:700;font-size:17px;background:#0F7A40;color:#FFFFFF;box-shadow:0 14px 30px -14px rgba(15,122,64,.85);transition:transform .2s ease,background .2s ease}
+.btn:hover{background:#0B6A37;transform:translateY(-2px)}
+.small{font-size:14px;color:rgba(243,243,241,.55)}
+.back{color:#D9B66F;font-size:14px}
+</style>
+</head>
+<body>
+<main class="card">
+  <img class="logo" src="assets/logo-icone.png" alt="Luciano Lopes Advocacia" width="56" height="71">
+  <h1>Obrigado<span id="nome"></span>, <span class="gold">recebemos seu contato.</span></h1>
+  <p>Estamos abrindo o WhatsApp para você continuar a conversa com a equipe do Luciano Lopes Advocacia.</p>
+  <div class="count" id="count" aria-live="polite">3</div>
+  <a id="wa" class="btn" href="https://wa.me/5511911592526">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 20.5l1.3-4.2A8.5 8.5 0 1 1 8 19.4z"></path><path d="M9 8.6c0 3.4 2.9 6.3 6.3 6.3l1.2-1.6-2.1-1-1 .9a4.6 4.6 0 0 1-2.7-2.7l.9-1-1-2.1z"></path></svg>
+    Continuar no WhatsApp
+  </a>
+  <p class="small">Se o WhatsApp não abrir sozinho, toque no botão acima.</p>
+  <a class="back" href="/">Voltar ao site</a>
+</main>
+<script src="config.js"></script>
+<script>
+(function () {
+  var C = window.LP_CONFIG || {};
+  var q = new URLSearchParams(location.search);
+  var n = (q.get('n') || '').trim().slice(0, 40);
+  var a = (q.get('a') || 'geral').trim();
+  var base = {
+    geral: 'Olá! Gostaria de orientação sobre um benefício do INSS.',
+    autismo: 'Olá! Gostaria de obter orientação sobre o BPC/LOAS para autismo.',
+    idoso: 'Olá! Gostaria de obter informações sobre o BPC/LOAS para idoso.',
+    acidente: 'Olá! Gostaria de conversar sobre auxílio-acidente.',
+    doenca: 'Olá! Tive problemas com meu benefício por incapacidade e gostaria de orientação.',
+    maternidade: 'Olá! Gostaria de verificar a possibilidade de receber salário-maternidade.'
+  };
+  if (n) document.getElementById('nome').textContent = ', ' + n;
+  var msg = (base[a] || base.geral) + (n ? ' Meu nome é ' + n + '.' : '');
+  var link = 'https://wa.me/' + (C.whatsapp || '5511911592526') + '?text=' + encodeURIComponent(msg);
+  document.getElementById('wa').href = link;
+
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({ event: 'lead_thankyou', area: a });
+
+  // abre o WhatsApp na janela principal (funciona também se a LP estiver num iframe)
+  function openWa() { try { window.top.location.href = link; } catch (e) { location.href = link; } }
+  var c = 3, el = document.getElementById('count');
+  var t = setInterval(function () {
+    c -= 1;
+    if (c > 0) { el.textContent = c; return; }
+    clearInterval(t); el.textContent = '✓'; openWa();
+  }, 1000);
+})();
+</script>
+</body>
+</html>
